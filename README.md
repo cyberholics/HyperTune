@@ -4,6 +4,7 @@ HyperTune is a Python package that uses [cross-validation](https://www.geeksforg
 
 ## How to install HyperTune
 
+Navigate to your command line and run this command: ```python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps hypertune```
 ## How to use HyperTune
 
 To use Hypertune, make sure you:
