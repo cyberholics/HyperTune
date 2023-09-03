@@ -33,7 +33,7 @@ param_grid = {
     'n_estimators': [10, 50, 100],
     'max_depth': [None, 10, 20],
 }
-
+ 
 # Use the tune_hyperparameters function to tune hyperparameters and obtain the best model
 best_model = tune_hyperparameters(model, param_grid, X_train, y_train, scoring='f1_macro')
 
