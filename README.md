@@ -12,7 +12,7 @@ To use Hypertune, make sure you:
 - Your training dataset
 - Understand hyperparameter tuning in machine learning.
 - 
-### Example of how use HyperTune to find the best hyperparameters for  a random forest model 
+### Example of how to use HyperTune to find the best hyperparameters for  a random forest model 
 ``` from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -39,7 +39,8 @@ param_grid = {
 # Use the tune_hyperparameters function to tune hyperparameters and obtain the best model
 best_model = tune_hyperparameters(model, param_grid, X_train, y_train, scoring='f1_macro')
 
-# The best_model is now the RandomForestClassifier with optimized hyperparameters
+# The best_model is now the RandomForestClassifier with optimised hyperparameters
+
 # You can use it for predictions 
 y_pred = best_model.predict(X_test) ```
 
