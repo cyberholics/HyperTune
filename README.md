@@ -43,5 +43,5 @@ best_model = tune_hyperparameters(model, param_grid, X_train, y_train, scoring='
 # The best_model is now the RandomForestClassifier with optimised hyperparameters
 
 # You can use it for predictions 
-y_pred = best_model.predict(X_test) ```
+y_pred = best_model.predict(X_test)```
 
