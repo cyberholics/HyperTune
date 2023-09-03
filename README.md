@@ -11,7 +11,7 @@ To use Hypertune, make sure you:
 - Have your pre-trained model
 - Your training dataset
 - Understand hyperparameter tuning in machine learning.
-- 
+  
 ### Example of how to use HyperTune to find the best hyperparameters for  a random forest model 
 ``` from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
