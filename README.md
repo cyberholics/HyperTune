@@ -46,4 +46,4 @@ best_model = tune_hyperparameters(model, param_grid, X_train, y_train, scoring='
 # You can use it for predictions 
 y_pred = best_model.predict(X_test)
 
-
+[Technical Article about HyperTune](https://dev.to/cyber_holics/how-to-find-the-best-hyperparameters-for-machine-learning-model-1hbk)
