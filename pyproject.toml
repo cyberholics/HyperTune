@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "hypertune"
 version = "0.0.1"
 authors = [
-  { name="victor", email="author@example.com" },
+  { name="victor", email="victorkingoshimua@gmail.com" },
 ]
 description = "A small example package"
 readme = "README.md"
